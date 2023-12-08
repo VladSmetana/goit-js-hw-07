@@ -25,6 +25,12 @@ button[data-create]{
     border: none;
     background: #4E75FF;
     transition: background 0.3s ease;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.04em;
 }
 button[data-destroy]{
     width: 120px;
@@ -36,6 +42,12 @@ button[data-destroy]{
     border: none;
     background: #FF4E4E;
     transition: background 0.3s ease;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.04em;
 }
 #boxes{
     display: flex;

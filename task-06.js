@@ -16,6 +16,8 @@ function createBoxes() {
 
   const boxes = [];
   if (amount >= 1 && amount <= 100) {
+    boxesContainer.innerHTML = '';
+
     for (let index = 0; index < amount; index++) {
       const box = document.createElement('div');
       box.style.width = `${30 + index * 10}px`;
@@ -31,7 +33,4 @@ function createBoxes() {
   }
 }
 
-function destroyBoxes() {
-  boxesContainer.innerHTML = '';
-}
 
