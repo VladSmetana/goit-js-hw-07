@@ -1,5 +1,5 @@
 // Отримуємо елемент ul#categories
-const categoriesList = document.getElementById('categories');
+const categoriesList = document.getElementById('#categories');
 
 //всі елементи li.item у списку ul#categories
 const categoryItems = categoriesList.querySelectorAll('li.item');

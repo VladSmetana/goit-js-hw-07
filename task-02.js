@@ -28,3 +28,16 @@ const images = [
   },
 ];
 
+const gallery = document.querySelector('.gallery')
+
+images.forEach(image =>{
+  const listItem = document.createElement('li');
+  listItem.classList.add('gallery-item');
+
+  const imgElement = document.createElement('img');
+  imgElement.src = image.url;
+  imgElement.alt = image.alt;
+
+  gallery.append(listItem);
+  listItem.append(imgElement);
+})
